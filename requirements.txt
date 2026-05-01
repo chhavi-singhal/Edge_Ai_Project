@@ -1,0 +1,23 @@
+# Python Dependencies for Hard Hat Detection
+# Raspberry Pi - YOLOv8 TFLite Model
+
+# Core dependencies
+numpy>=1.19.0
+opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0
+
+# TensorFlow Lite (choose one based on your RPi architecture)
+# For most Raspberry Pi models:
+tflite-runtime>=2.5.0
+
+# Alternative if tflite-runtime doesn't work:
+# tensorflow-lite>=2.5.0
+
+# Optional - for better performance
+# Pillow>=8.0.0
+
+# Installation instructions:
+# pip3 install -r requirements.txt
+#
+# If tflite-runtime fails, edit this file to comment out tflite-runtime
+# and uncomment tensorflow-lite, then run pip3 install -r requirements.txt again
