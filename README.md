@@ -1,4 +1,4 @@
-# Edge_Ai_Project
+# Edge_Ai_Project https://www.samy101.com/edge-ai-26/
 # 🪖 PPE Hard Hat Detection — Edge AI on Raspberry Pi 5
 
 A real-time **Personal Protective Equipment (PPE) detection system** that runs entirely on a **Raspberry Pi 5** using a YOLOv8 model trained on Roboflow and deployed as a quantized TFLite model. The system detects whether workers are wearing hard hats using a Pi Camera Module, with no cloud dependency.
